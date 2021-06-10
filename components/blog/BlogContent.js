@@ -4,12 +4,16 @@ import Image from 'next/image'
 const BlogContent = () => {
 
 	const [posts, setPosts] = useState([]);
+	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {
+		setLoading(true);
 		fetch("https://my-portfolio-blog.herokuapp.com/blog-posts")
 		.then(response => response.json())
 		.then(resultData => {
-			setPosts(resultData)
+			setPosts(resultData);
+		}).finally(() => {
+			setLoading(false);
 		});
 	}, []);
 
@@ -17,6 +21,9 @@ const BlogContent = () => {
     <section className="section pt-5">
 			<div className="container blog-cards">
 				<div className="row">
+					{
+						loading && <h4>Loading...</h4>
+					}
 					{
 						posts.map(post =>
 							<div key={post._id} className="col-12 col-md-6 col-lg-4 mb-5">

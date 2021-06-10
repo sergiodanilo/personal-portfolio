@@ -57,27 +57,6 @@ const ResumeContent = () => {
 									    </div>
 									    <div className="resume-timeline-item-desc">
 										    <p>Handled full stack development for all client projects. Planned, wrote, and debugged web applications and software with complete accuracy.</p>
-
-												<h4 className="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-										    <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-										    <ul>
-											    <li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-											    <li>At vero eos et accusamus et iusto odio dignissimos.</li>
-											    <li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-											    <li>Maecenas tempus tellus eget.</li>
-										    </ul>
-										    <h4 className="resume-timeline-item-desc-heading font-weight-bold">Stack:</h4>
-										    <ul className="list-inline">
-											    <li className="list-inline-item"><span className="badge badge-secondary badge-pill">Java</span></li>
-											    <li className="list-inline-item"><span className="badge badge-secondary badge-pill">Spring</span></li>
-											    <li className="list-inline-item"><span className="badge badge-secondary badge-pill">React</span></li>
-											    <li className="list-inline-item"><span className="badge badge-secondary badge-pill">PostgreSQL</span></li>
-											    <li className="list-inline-item"><span className="badge badge-secondary badge-pill">Jenkins</span></li>
-											    <li className="list-inline-item"><span className="badge badge-secondary badge-pill">Git</span></li>
-													<li className="list-inline-item"><span className="badge badge-secondary badge-pill">Docker</span></li>
-													<li className="list-inline-item"><span className="badge badge-secondary badge-pill">ElasticSearch</span></li>
-										    </ul>
-
 									    </div>
 
 								    </article>
