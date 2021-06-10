@@ -57,7 +57,8 @@ const ResumeContent = () => {
 									    </div>
 									    <div className="resume-timeline-item-desc">
 										    <p>Handled full stack development for all client projects. Planned, wrote, and debugged web applications and software with complete accuracy.</p>
-										    <h4 className="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+
+												<h4 className="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
 										    <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
 										    <ul>
 											    <li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
@@ -76,6 +77,7 @@ const ResumeContent = () => {
 													<li className="list-inline-item"><span className="badge badge-secondary badge-pill">Docker</span></li>
 													<li className="list-inline-item"><span className="badge badge-secondary badge-pill">ElasticSearch</span></li>
 										    </ul>
+
 									    </div>
 
 								    </article>
