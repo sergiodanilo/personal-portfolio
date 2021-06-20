@@ -13,7 +13,8 @@ const Menu = () => {
     [
       {label: "About", ref: React.createRef(), link: '/', active: true },
       {label: "Resume", ref: React.createRef(), link: '/resume', active: false },
-      {label: "Blog", ref: React.createRef(), link: '/blog', active: false }
+      {label: "Blog", ref: React.createRef(), link: '/blog', active: false },
+      {label: "About", ref: React.createRef(), link: '/about', active: false },
     ]
   );
 
