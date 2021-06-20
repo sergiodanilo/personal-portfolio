@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-
 const icons = ['javascript', 'typescript', 'react', 'nodejs', 'nest', 'bootstrap', 'mongodb']
 
 export default function About() {
@@ -19,8 +18,7 @@ export default function About() {
               />
             </div>
             <h3 class="section-title">Project techs</h3>
-
-            <p>I started this portfolio page in order to learn and improve some technologies that I am didn't using in my job.</p>
+            <p>I started this portfolio page in order to learn and improve some technologies that I wasn't using in my job.</p>
           </div>
         </section>
 
