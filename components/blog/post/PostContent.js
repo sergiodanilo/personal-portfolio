@@ -20,7 +20,7 @@ const PostContent = ({ post }) => {
             case "image":
               return (
                 <div key={idx} className="section-row">
-                  <PostImage src={item.src} alt={item.alt} caption={item.caption} />
+                  <PostImage src={item.src} alt={item.alt} caption={item.caption} w={item.w} h={item.h} />
                 </div>
               )
             case "quote":
@@ -30,7 +30,7 @@ const PostContent = ({ post }) => {
                 </div>
               )
             default:
-              return (<h3 key={idx}>No content!</h3>)
+              return (<div>{item.content}</div>)
           }
         })
       }

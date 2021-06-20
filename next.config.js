@@ -8,5 +8,5 @@ module.exports = {
     domains: [
       'res.cloudinary.com'
     ],
-},
+  }
 }

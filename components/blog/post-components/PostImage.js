@@ -1,20 +1,21 @@
 import Image from 'next/image';
 
-const PostImage = ({ src, alt, caption }) => {
+const PostImage = ({ src, alt, caption, w, h }) => {
 
   return (
-    <figure className="figure mb-5">
-        <Image
-          src={src}
-          alt={alt}
-          className="img-fluid figure-img"
-          width={400}
-          height={150}
-        />
-        <figcaption className="figure-caption text-center">
-          {caption}
-        </figcaption>
-    </figure>
+    <div>
+      <Image
+        src={src}
+        alt={alt}
+        className="img-fluid figure-img"
+        layout="responsive"
+        width={w}
+        height={h}
+      />
+      <figcaption className="figure-caption text-center">
+        {caption}
+      </figcaption>
+    </div>
   )
 }
 
